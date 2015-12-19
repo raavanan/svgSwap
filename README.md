@@ -13,7 +13,7 @@ swap img with svg src with inline svg.
  
 ### The solution
 
-the plugin swaps this
+the Directive swaps this
 
  ```
  <img class="swap-svg" id="myid" src="circle.svg" />
