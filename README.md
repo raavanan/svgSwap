@@ -1,6 +1,7 @@
 # svgSwap
 swap img with svg src with inline svg.
-`
+
+```
 .directive('svgSwap', function ($http, $compile) {
   return {
     restrict : 'EA',
@@ -13,4 +14,4 @@ swap img with svg src with inline svg.
     }
   }
 })
-`
+```
