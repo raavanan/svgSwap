@@ -8,7 +8,10 @@ angular.module('svgApp', [])
       restrict : 'EA',
       replace : true,
       templateUrl : function (elem, attr) {
-        return attr.src;
+        var ext = attr.src.split('.').pop();
+        if(ext == 'svg'){
+            return attr.src;
+        }
       }
     }
   })
